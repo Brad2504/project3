@@ -74,7 +74,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -107,7 +107,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -140,7 +140,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -173,7 +173,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -206,7 +206,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -239,7 +239,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -272,7 +272,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -305,7 +305,7 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
+        
     }
 
     // Destroy spawn attributes
@@ -338,7 +338,6 @@ int main() {
     }
 
     if (WIFEXITED(status)) {
-        printf("Spawned process exited with status %d\n", WEXITSTATUS(status));
     }
 
     // Destroy spawn attributes
@@ -359,6 +358,7 @@ int main() {
 	}
 
 	if(strcmp(argv[0], allowed[11]) == 0){
+		printf("The allowed commands are:\n");
 		for(int i = 0; i < N; i++){
 			printf("%d: %s\n", (i+1), allowed[i]);
 		}
