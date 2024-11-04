@@ -351,6 +351,7 @@ int main() {
 			printf("-rsh: cd: too many arguments\n");
 		}
 		chdir(argv[1]);
+		continue;
 	}
 
 	if(strcmp(argv[0], allowed[10]) == 0){
@@ -362,6 +363,7 @@ int main() {
 		for(int i = 0; i < N; i++){
 			printf("%d: %s\n", (i+1), allowed[i]);
 		}
+		continue;
 	}
 	else{
 		printf("NOT ALLOWED!\n");
